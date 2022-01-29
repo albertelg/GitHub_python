@@ -17,17 +17,17 @@ def crarDocument():
 def modificaDocument(nom,jug):
     f=open("partides.csv","w")
     llista=f.readlines()
-    for jugador in llista:
-        if nom in jugador:
-            if jug==1:
+    #for jugador in llista:
+        #if nom in jugador:
+            #if jug==1:
                 #sumar una victoria
-            else:
-                pass
+            #else:
+                #pass
                 #Sumar una derrota
-        else:
-            f.write(nom)
-            f.write("0")
-            f.write("0")
+        #else:
+            #f.write(nom)
+            #f.write("0")
+            #f.write("0")
     f.close()
 
 
@@ -207,9 +207,9 @@ def Partida(jug,metode):
     while fi == False:
         if jug==1:
             tauler=jugHuma(tauler)
-        elif jug==2:
+        #elif jug==2:
             #tauler=jugHuma(tauler)
-            tauler=jugMaq(tauler,metode)
+            #tauler=jugMaq(tauler,metode)
 
         if comprovaVictoria(tauler,jug) == True:
             return jug
