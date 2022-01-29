@@ -250,3 +250,6 @@ if __name__=="__main__":
     if volsFer=="N": #Tot i que aqui només pot ser N
         print("Jugador","\t","Mitjana  ","Guaynat  ","Perdut")
         imprimeixFinal()
+
+
+        print("Ja funciona !!!!")
